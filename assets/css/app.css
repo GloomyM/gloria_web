@@ -171,14 +171,11 @@ sup {
 
 /* line 198, node_modules/bootstrap/scss/_reboot.scss */
 a {
-  color: #bd081c;
   text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects; 
+}
   /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
-  a:hover {
-    color: #740511;
-    text-decoration: underline; }
+
 
 /* line 216, node_modules/bootstrap/scss/_reboot.scss */
 a:not([href]):not([tabindex]) {
@@ -3580,7 +3577,6 @@ fieldset:disabled a.btn {
   background-color: transparent; }
   /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
   .btn-link:hover {
-    color: #740511;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -5287,7 +5283,6 @@ input[type="button"].btn-block {
   /* line 17, node_modules/bootstrap/scss/_pagination.scss */
   .page-link:hover {
     z-index: 2;
-    color: #740511;
     text-decoration: none;
     background-color: #eee;
     border-color: #dee2e6; }
